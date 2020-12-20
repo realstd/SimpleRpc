@@ -1,0 +1,27 @@
+{
+  "name": "simple-rpc/client",
+  "description": "simple rpc demo",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "keywords": [
+    "php",
+    "swoole",
+    "simpleRpc"
+  ],
+  "authors": [
+    {
+      "name": "suntengda",
+      "email": "std01@126.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "Application/",
+      "SimpleRpc\\":"framework/SimpleRpc"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-swoole":">=4.0"
+  }
+}
